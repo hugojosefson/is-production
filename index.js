@@ -16,4 +16,4 @@ function isProduction(processEnv, processArgv) {
     }
 }
 
-module.exports = isProduction();
+module.exports = isProduction;
