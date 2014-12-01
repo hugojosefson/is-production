@@ -1,0 +1,33 @@
+{
+  "name": "is-production",
+  "version": "1.0.0",
+  "description": "Checks if build is running in production or development mode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugojosefson/is-production.git"
+  },
+  "keywords": [
+    "build",
+    "production",
+    "development",
+    "argv",
+    "arguments",
+    "environment"
+  ],
+  "author": "Hugo Josefson <hugo@josefson.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugojosefson/is-production/issues"
+  },
+  "homepage": "https://github.com/hugojosefson/is-production",
+  "dependencies": {
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  }
+}
